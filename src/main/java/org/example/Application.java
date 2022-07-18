@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication(scanBasePackages="org.example")public class Application {
+@SpringBootApplication(scanBasePackages="org.example")
+public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
